@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.13"
+  },
+  "name": "password.ts",
+  "version": "0.0.0",
+  "description": "A simple generator and tester for passwords",
+  "main": "index.js",
+  "author": "Mateus Vieites",
+  "license": "MIT",
+  "private": false
+}
