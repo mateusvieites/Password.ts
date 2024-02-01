@@ -1,15 +1,26 @@
 {
-  "dependencies": {
-    "typescript": "^5.3.3"
-  },
-  "devDependencies": {
-    "@types/node": "^20.11.13"
-  },
-  "name": "password.ts",
-  "version": "0.0.0",
+  "name": "nirin.password.ts",
+  "private": false,
+  "version": "0.0.2",
   "description": "A simple generator and tester for passwords",
-  "main": "index.js",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "type": "commonjs",
+  "files": [
+    "build",
+    "README.MD"
+  ],
+  "repository": {
+    "repository": "github:mateusvieites/Password.ts"
+  },
   "author": "Mateus Vieites",
   "license": "MIT",
-  "private": false
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^20.11.13",
+    "typescript": "^5.3.3"
+  },
+  "scripts": {
+    "build": "npx tsc"
+  }
 }

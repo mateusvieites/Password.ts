@@ -9,13 +9,6 @@
   dependencies:
     undici-types "~5.26.4"
 
-"password.ts@file:":
-  version "0.0.0"
-  resolved "file:"
-  dependencies:
-    password.ts "file:"
-    typescript "^5.3.3"
-
 typescript@^5.3.3:
   version "5.3.3"
   resolved "https://registry.npmjs.org/typescript/-/typescript-5.3.3.tgz"
